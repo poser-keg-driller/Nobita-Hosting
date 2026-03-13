@@ -167,14 +167,14 @@ while true; do
     read -r choice
     
     case $choice in
-        1) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/panel.sh" ;;
-        2) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/wing.sh" ;;
-        3) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/up.sh" ;;
-        4) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/uninstalll.sh" ;;
-        5) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/blueprint.sh" ;;
-        6) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/cloudflare.sh" ;;
-        7) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/th.sh" ;;
-        8) run_remote_script "https://raw.githubusercontent.com/nobita586/Nobita-Hosting/main/cd/ssh.sh" ;;
+        1) run_remote_script "https://raw.githubusercontent.com/poser-keg-driller/Nobita-Hosting/main/cd/panel.sh" ;;
+        2) run_remote_script "https://raw.githubusercontent.com/poser-keg-driller/Nobita-Hosting/main/cd/wing.sh" ;;
+        3) run_remote_script "https://raw.githubusercontent.com/poser-keg-driller/Nobita-Hosting/main/cd/up.sh" ;;
+        4) run_remote_script "https://raw.githubusercontent.com/poser-keg-driller/Nobita-Hosting/main/cd/uninstalll.sh" ;;
+        5) run_remote_script "https://raw.githubusercontent.com/poser-keg-driller/Nobita-Hosting/main/cd/blueprint.sh" ;;
+        6) run_remote_script "https://raw.githubusercontent.com/poser-keg-driller/Nobita-Hosting/main/cd/cloudflare.sh" ;;
+        7) run_remote_script "https://raw.githubusercontent.com/poser-keg-driller/Nobita-Hosting/main/cd/th.sh" ;;
+        8) run_remote_script "https://raw.githubusercontent.com/poser-keg-driller/Nobita-Hosting/main/cd/ssh.sh" ;;
         9) system_info ;;
         0) 
             echo -e "${GREEN}Exiting Nobita Hosting Manager...${NC}"
